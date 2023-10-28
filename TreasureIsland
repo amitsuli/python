@@ -1,0 +1,30 @@
+print(r"""\
+
+                                   ._ o o
+                                   \_`-)|_
+                                ,""       \ 
+                              ,"  ## |   ಠ ಠ. 
+                            ," ##   ,-\__    `.
+                          ,"       /     `--._;)
+                        ,"     ## /
+                      ,"   ##    /
+
+
+                """)
+print("Welcome to Treasure Island. Your mission is to find the treasure")
+direction = input("Which direction do you want to go left or right? ")
+if direction == "right":
+    print("Game over - you fall into a hole.")
+else:
+    print("You came into a lake, do you want to swim or wait? ")
+    swim = input("")
+    if swim == "swim":
+        print("Game over - you was Attackted by trout.")
+    else:
+        door = input("You came into a door which do you choosing the red, the yellow or the blue one? ")
+    if door == "yellow":
+        print("You win!")
+    elif door == "red":
+        print("You was burned alive. Game Over Loser!")
+    elif door == "blue":
+        print("You was eaten by beasts. Game Over Loser!")
